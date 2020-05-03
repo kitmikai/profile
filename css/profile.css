@@ -40,8 +40,8 @@ p.fun-facts{
 }
 #welcome {
   color: #fff;
-  background-image: image("img/home.jpg");
-  height: 800px ;
+  background-color: #999;
+  background-image: img('/img/beach-restaurant.jpeg');
   margin-left: 150px;
 
 }
