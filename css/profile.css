@@ -1,3 +1,7 @@
 .author {
   color: red;
 }
+
+#home {
+  background-image: image(img/home.jpg);
+}
