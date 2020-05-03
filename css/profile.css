@@ -1,8 +1,13 @@
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: darkgrey;
 }
 .large-text {
   font-size: 3.75em;
+}
+
+.medium-text {
+  font-size: 1.975em;
 }
 p.mantra {
   font-size:1.565em;
@@ -10,12 +15,43 @@ p.mantra {
   padding-top: 0px ;
   top: 0px;
 }
-#welcome {
-  color: #fff;
-  background-image: image(img/home.jpg);
-  height: 800px ;
+p.fun-facts{
+  width:450px;
+  margin:5px 30px 5px 50px;
+  padding: 2px ;
 
 }
+#passion {
+  height:500px;
+
+}
+
+#intro {
+  height: 500px;
+}
+#stuffido {
+  height:400px;
+
+}
+#projects {
+  height: 500px;
+
+}
+#welcome {
+  color: #fff;
+  background-image: image("img/home.jpg");
+  height: 800px ;
+  margin-left: 150px;
+
+}
+
+#top-nav-bar {
+  background-color: darkslategrey;
+  margin: 0px 150px; 3px; 0px;
+  border: #000 solid 2px;
+  padding:5px;
+}
+
 
 #footer {
   background-color: black;
@@ -23,4 +59,7 @@ p.mantra {
   color: #ffffff;
   margin:0px;
   padding:20px 10px 10px 10px;
+}
+#container {
+  margin-left:0px;
 }
