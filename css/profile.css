@@ -1,7 +1,24 @@
-.author {
-  color: red;
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.large-text {
+  font-size: 3.75em;
+}
+p.mantra {
+  font-size:1.565em;
+  margin-top: 0px;
+  padding-top: 0px ;
+  top: 0px;
+}
+#welcome {
+  background-image: image(img/home.jpg);
+  height: 800px ;
 }
 
-#home {
-  background-image: image(img/home.jpg);
+#footer {
+  background-color: black;
+  font-size: 1.1em;
+  color: #ffffff;
+  margin:0px;
+  padding:20px 10px 10px 10px;
 }
