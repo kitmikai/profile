@@ -11,8 +11,10 @@ p.mantra {
   top: 0px;
 }
 #welcome {
+  color: #fff;
   background-image: image(img/home.jpg);
   height: 800px ;
+
 }
 
 #footer {
