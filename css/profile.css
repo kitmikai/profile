@@ -1,66 +1,67 @@
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: darkgrey;
+  margin:0px;
+  padding:0px;
 }
-.large-text {
-  font-size: 3.75em;
+button {
+  display: block;
+  border-color: red;
+  background-blend-mode: color;
+  padding: 30px;
 }
-
-.medium-text {
-  font-size: 1.975em;
+ul {
+  list-style-type: none;
 }
-p.mantra {
-  font-size:1.565em;
-  margin-top: 0px;
-  padding-top: 0px ;
-  top: 0px;
-}
-p.fun-facts{
-  width:450px;
-  margin:5px 30px 5px 50px;
-  padding: 2px ;
+li {
+  display: inline;
+  padding:10px;
+  margin:10px;
 
 }
-#passion {
-  height:500px;
-
+a {
+  text-decoration: none;
+  text-transform:uppercase;
+  color: #fff;
+  font-size: 0.7em;
+  font-weight: bold;
+  font-kerning: 2px;
 }
-
-#intro {
-  height: 500px;
-  margin-left:150px;
-}
-#stuffido {
-  height:400px;
-
-}
-#projects {
-  height: 500px;
-
+#top-navbar {
+  top:0px;
+  margin:0px;
+  padding: 30px;
+  text-align: center;
 }
 #welcome {
   color: #fff;
-  background-color: #999;
-  background-image: img('/img/beach-restaurant.jpeg');
-  margin-left: 150px;
+  background-image: url(../img/bare-tree.jpg);
+  background-repeat: no-repeat;
+  height: 990px;
+  background-color: #ccc;
+  margin-top:0px;
 
 }
-
-#top-nav-bar {
-  background-color: darkslategrey;
-  margin: 0px 150px; 3px; 0px;
-  border: #000 solid 2px;
-  padding:5px;
+h1.large-text {
+  font-size: 4.675em;
+  padding-top:220px;
+  padding-left: 250px;
+  padding-bottom: 0px;
 }
 
+.title {
+  font-size: 2.245em;
+  padding-left: 250px;
+  padding-top: 0px;
+}
 
-#footer {
-  background-color: black;
+#intro {
+  background-color: #fff;
+  height: 500px;
+  margin: 75px 75px 0px 75px;
+
+}
+#intro p {
+  min-width: 250px;
+  width: 400px;
   font-size: 1.1em;
-  color: #ffffff;
-  margin:0px;
-  padding:20px 10px 10px 10px;
-}
-#container {
-  margin-left:0px;
 }
