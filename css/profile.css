@@ -37,9 +37,15 @@ a {
   padding: 30px;
   text-align: center;
 }
+#bottom-navbar {
+  top:0px;
+  margin:0px;
+  padding: 30px;
+  text-align: center;
+}
 #welcome {
   color: #fff;
-  background-image: url(../img/bare-tree.jpg);
+  background-image: url(../img/florian-medium.jpg);
   background-repeat: no-repeat;
   height: 990px;
   background-color: #ccc;
@@ -64,6 +70,11 @@ h1.large-text {
 .title-center {
   font-size: 2.245em;
   padding-left: 250px;
+  padding-top: 0px;
+  text-align: center;
+}
+.footer-title {
+  font-size: 2.245em;
   padding-top: 0px;
   text-align: center;
 }
@@ -108,4 +119,10 @@ h1.large-text {
 #project-container p {
   text-align: center;
   width: 300px;
+}
+#footer {
+  color: #fff;
+  background-color: #000;
+  margin: 0px 0px 120px 0px;
+  padding: 75px 0px 0px 0px;
 }
