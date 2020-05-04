@@ -3,12 +3,7 @@ body {
   margin:0px;
   padding:0px;
 }
-button {
-  display: block;
-  border-color: red;
-  background-blend-mode: color;
-  padding: 30px;
-}
+
 ul {
   list-style-type: none;
 }
@@ -41,13 +36,13 @@ a {
   margin:0px;
   padding: 15px;
   text-align: center;
-  background-color: #fff;
+  background-color: #bbbbbb;
 }
 #top-navbar a {
   text-decoration: none;
   text-transform:uppercase;
-  color: #949494;
-  font-size: 0.765em;
+  color: #000;
+  font-size: 0.755em;
   font-kerning: 2px;
   margin: 3px;
   padding: 3px 8px 3px 8px;
@@ -55,10 +50,10 @@ a {
 #top-navbar a:hover {
   text-decoration: none;
   text-transform:uppercase;
-  color: #808080;
-  font-size: 0.775em;
+  font-weight: bold;
+  color: #595959;
+  font-size: 0.755em;
   font-stretch: expanded;
-  font-kerning: 2px;
   padding: 3px 8px 3px 8px;
 }
 #top-navbar a:active {
@@ -67,38 +62,14 @@ a {
   color: #cc8400;
   font-size: 0.775em;
   font-stretch: expanded;
-  font-kerning: 2px;
-  padding: 3px 8px 3px 8px;
-}
-#bottom-navbar {
-  top:0px;
-  margin:0px;
-  padding: 30px;
-  text-align: center;
-}
-#bottom-navbar a {
-  text-decoration: none;
-  text-transform:uppercase;
-  color: #949494;
-  font-size: 0.775em;
-  font-kerning: 2px;
-  margin: 3px;
-  padding: 3px 8px 3px 8px;
-}
-#bottom-navbar a:hover {
-  text-decoration: none;
-  text-transform:uppercase;
-  color: #808080;
-  font-size: 0.775em;
-  font-stretch: expanded;
-  font-kerning: 2px;
+  font-weight: bold;
   padding: 3px 8px 3px 8px;
 }
 #welcome {
   color: #fff;
   background-image: url(../img/bare-tree.jpg);
   background-repeat: no-repeat;
-  height: 950px;
+  height: 965px;
   background-color: #ccc;
   margin-top:0px;
 }
@@ -107,16 +78,33 @@ a {
   padding-top: 10px;
 }
 
+#resume {
+  margin-top: 100px;
+}
+.about {
+  text-align: center;
+  font-size: 2.5em;
+}
+.mystory {
+  margin:0px 150px 0px 250px;
+  width: 950px;
+  font-size: 1.45em;
+  line-height: 1.475em
+
+}
+
 h1.large-text {
   font-size: 4.675em;
   padding-top:220px;
   padding-left: 250px;
   padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 .title {
   font-size: 2.245em;
   padding-left: 250px;
   padding-top: 0px;
+  margin-top: 0px;
 }
 .title-center {
   font-size: 2.245em;
@@ -124,11 +112,7 @@ h1.large-text {
   padding-top: 0px;
   text-align: center;
 }
-.footer-title {
-  font-size: 2.245em;
-  padding-top: 0px;
-  text-align: center;
-}
+
 .iconbox {
   background-color: #fff;
   margin: 180px 50px 0px 50px;
@@ -176,11 +160,32 @@ h1.large-text {
   margin:0px;
   padding: 75px 0px 100px 0px;
 }
-.para {
-  margin:10px 100px 0px 250px;
-  width: 500px;
+#bottom-navbar {
+  top:0px;
+  margin:0px;
+  padding: 30px;
   text-align: center;
 }
-ul.points {
-  display: block;
+#bottom-navbar a {
+  text-decoration: none;
+  text-transform:uppercase;
+  color: #949494;
+  font-size: 0.775em;
+  font-kerning: 2px;
+  margin: 3px;
+  padding: 3px 8px 3px 8px;
+}
+#bottom-navbar a:hover {
+  text-decoration: none;
+  text-transform:uppercase;
+  color: #808080;
+  font-size: 0.775em;
+  font-stretch: expanded;
+  font-kerning: 2px;
+  padding: 3px 8px 3px 8px;
+}
+.footer-title {
+  font-size: 3.245em;
+  padding-top: 0px;
+  text-align: center;
 }
