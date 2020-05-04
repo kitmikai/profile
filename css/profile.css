@@ -16,7 +16,6 @@ li {
   display: inline;
   padding:10px;
   margin:10px;
-
 }
 a {
   text-decoration: none;
@@ -25,7 +24,6 @@ a {
   font-size: 0.775em;
   font-weight: bold;
   font-kerning: 2px;
-
 }
 .image-float {
   float: left;
@@ -47,11 +45,29 @@ a {
 #top-navbar a {
   text-decoration: none;
   text-transform:uppercase;
-  color: #fff;
+  color: #000;
   font-size: 0.775em;
   font-stretch: expanded;
   font-kerning: 2px;
-
+  padding: 3px 8px 3px 8px;
+}
+#top-navbar a:hover {
+  text-decoration: none;
+  text-transform:uppercase;
+  color: #ffa500;
+  font-size: 0.775em;
+  font-stretch: expanded;
+  font-kerning: 2px;
+  padding: 3px 8px 3px 8px;
+}
+#top-navbar a:active {
+  text-decoration: none;
+  text-transform:uppercase;
+  color: #ffa500;
+  font-size: 0.775em;
+  font-stretch: expanded;
+  font-kerning: 2px;
+  padding: 3px 8px 3px 8px;
 }
 #bottom-navbar {
   top:0px;
