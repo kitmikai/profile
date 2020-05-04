@@ -74,7 +74,9 @@ a {
   margin-top:0px;
 }
 #experience {
-  margin: 75px 250px 0px 250px;
+  margin: 85px 0px 0px 0px;
+  padding-top:150px;
+  background-color: #cecece;
 }
 #projects {
   margin-top: 0px;
@@ -117,19 +119,6 @@ h1.large-text {
   text-align: center;
 }
 
-.iconbox {
-  background-color: #fff;
-  margin: 180px 50px 0px 50px;
-}
-
-.iconbox .container {
-  position: relative;
-  margin:0px 5px 0px 240px;
-  padding: 5px 5px 0px 5px;
-}
-.iconbox h2 {
-  font-size: 2.2em;
-}
 .col-content {
   float: left;
   padding: 5px;
@@ -204,6 +193,8 @@ h1.large-text {
 .column-info {
   float: left;
   width:50%;
+  font-size: 1.35em;
+  line-height: 1.495em;
 }
 #experience::after {
   content: "";
