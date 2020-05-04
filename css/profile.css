@@ -105,12 +105,8 @@ a {
 #projects {
   margin-top: 0px;
   padding-top: 10px;
-  background-color: #808080;
 }
-.slide-container {
-  width: 800px;
-  height: 990px;
-}
+
 h1.large-text {
   font-size: 4.675em;
   padding-top:220px;
@@ -172,11 +168,19 @@ h1.large-text {
 }
 .project-items {
   text-align: center;
-  
+  margin:0px 50px 0px 250px;
 }
 #footer {
   color: #fff;
   background-color: #000;
   margin:0px;
   padding: 75px 0px 100px 0px;
+}
+.para {
+  margin:10px 100px 0px 250px;
+  width: 500px;
+  text-align: center;
+}
+ul.points {
+  display: block;
 }
