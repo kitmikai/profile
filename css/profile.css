@@ -79,7 +79,7 @@ a {
   background-color: #cecece;
 }
 #projects {
-  margin-top: 0px;
+  margin: 85px 0px 0px 0px;
   padding-top: 10px;
 }
 
@@ -87,6 +87,10 @@ a {
   margin-top: 100px;
 }
 .about {
+  text-align: center;
+  font-size: 2.5em;
+}
+.project-title {
   text-align: center;
   font-size: 2.5em;
 }
@@ -186,9 +190,9 @@ h1.large-text {
   color: #282828;
   font-size: bold;
 }
-.row-details {
-  column-count: 2;
-  column-gap: 40px;
+.row-projects {
+  content:"";
+  clear: both;
 }
 .column-info {
   float: left;
