@@ -73,6 +73,9 @@ a {
   background-color: #ccc;
   margin-top:0px;
 }
+#experience {
+  margin: 75px 250px 0px 250px;
+}
 #projects {
   margin-top: 0px;
   padding-top: 10px;
@@ -193,5 +196,17 @@ h1.large-text {
 .eve-ng {
   color: #282828;
   font-size: bold;
-
+}
+.row-details {
+  column-count: 2;
+  column-gap: 40px;
+}
+.column-info {
+  float: left;
+  width:50%;
+}
+#experience::after {
+  content: "";
+  display: table;
+  clear: both;
 }
