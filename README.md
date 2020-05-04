@@ -7,7 +7,7 @@ This is a minimalist design achieved using HTML and pure CSS to build the page. 
 * Clone "https://github.com/kitmikai/profile.git"
 * Open index.html in your browser
 ### Demo
-The site has been published on Github pages, [**check it out!**](https://kitmikai.github.io/biopage/)
+The site has been published on Github pages, [**check it out!**](https://kitmikai.github.io/profile/)
 
 ### Built with
 * HTML
