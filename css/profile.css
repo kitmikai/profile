@@ -22,9 +22,14 @@ a {
   text-decoration: none;
   text-transform:uppercase;
   color: #fff;
-  font-size: 0.7em;
+  font-size: 0.775em;
   font-weight: bold;
   font-kerning: 2px;
+
+}
+.image-float {
+  float: left;
+  padding-right: 50px;
 }
 #top-navbar {
   top:0px;
@@ -41,17 +46,49 @@ a {
   margin-top:0px;
 
 }
+.slide-container {
+  width: 800px;
+  height: 990px;
+}
 h1.large-text {
   font-size: 4.675em;
   padding-top:220px;
   padding-left: 250px;
   padding-bottom: 0px;
 }
-
 .title {
   font-size: 2.245em;
   padding-left: 250px;
   padding-top: 0px;
+}
+.title-center {
+  font-size: 2.245em;
+  padding-left: 250px;
+  padding-top: 0px;
+  text-align: center;
+}
+.iconbox {
+  background-color: #fff;
+  margin: 180px 50px 0px 50px;
+}
+
+.iconbox .container {
+  position: relative;
+  margin:0px 5px 0px 240px;
+  padding: 5px 5px 0px 5px;
+}
+.iconbox h2 {
+  font-size: 2.2em;
+}
+.col-content {
+  float: left;
+  padding: 5px;
+}
+
+.row {
+  content:"";
+  clear: both;
+  display: table;
 }
 
 #intro {
@@ -62,6 +99,13 @@ h1.large-text {
 }
 #intro p {
   min-width: 250px;
-  width: 400px;
   font-size: 1.1em;
+}
+#project-container {
+  margin:0px 50px 5px 0px;
+  padding:5px 5px 0px 5px;
+}
+#project-container p {
+  text-align: center;
+  width: 300px;
 }
