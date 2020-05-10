@@ -1,14 +1,19 @@
 body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Roboto, Georgia, 'Times New Roman', Times, serif;
   margin:0px;
 }
 
 .welcome-wrapper {
+  position: relative;
+  background-image: url(../img/bare-tree.jpg);
   color: #fff;
   background-repeat: no-repeat;
+  background-size:cover;
   height: 965px;
+  width: 100%;
   background-color: #ccc;
   margin-top:0px;
+  
 }
 
 .top-navbar {
@@ -34,25 +39,42 @@ body {
 }
 
 .active-nav-link {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 
 .nav-link-wrapper a {
-  color: #000;
+  color: white;
+  font-weight: 600;
   text-decoration: none;
   transition: color 0.5s;
 }
 
 .nav-link-wrapper:hover {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 .nav-link-wrapper a:hover {
-  color: black;
+  color: white;
 }
 
+.section-content-wrapper {
+  position: absolute;
+  top: 350px;
+  margin-left: 250px;
+}
 
-
-
+.section-wrapper {
+  position: relative;
+}
+.large-section-title {
+  font-size: 3.875em;
+  padding: 0px;
+  margin: 0px;
+}
+.section-subtitle {
+  margin: 0px;
+  padding:0px;
+  font-size: 1.665em;
+}
 
 
 
