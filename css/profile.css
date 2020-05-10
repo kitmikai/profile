@@ -1,26 +1,62 @@
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin:0px;
-  padding:0px;
 }
 
-ul {
-  list-style-type: none;
-}
-li {
-  display: inline;
-  padding:10px;
-  margin:10px;
-}
-a {
-  text-decoration: none;
-  text-transform:uppercase;
+.welcome-wrapper {
   color: #fff;
-  font-size: 0.775em;
-  font-weight: bold;
-  font-kerning: 2px;
-  margin:3px;
+  background-repeat: no-repeat;
+  height: 965px;
+  background-color: #ccc;
+  margin-top:0px;
 }
+
+.top-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding:40px;
+}
+
+.right-side {
+  display:flex;
+}
+
+.top-navbar > .right-side > div {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.active-nav-link {
+  border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid black;
+}
+.nav-link-wrapper a:hover {
+  color: black;
+}
+
+
+
+
+
+
+
+
 .image-float {
   float: left;
   padding-right: 50px;
@@ -31,48 +67,7 @@ a {
   color: #949494;
   padding-top:20px;
 }
-#top-navbar {
-  top:0px;
-  margin:0px;
-  padding: 15px;
-  text-align: center;
-  background-color: #bbbbbb;
-}
-#top-navbar a {
-  text-decoration: none;
-  text-transform:uppercase;
-  color: #000;
-  font-size: 0.755em;
-  font-kerning: 2px;
-  margin: 3px;
-  padding: 3px 8px 3px 8px;
-}
-#top-navbar a:hover {
-  text-decoration: none;
-  text-transform:uppercase;
-  font-weight: bold;
-  color: #595959;
-  font-size: 0.755em;
-  font-stretch: expanded;
-  padding: 3px 8px 3px 8px;
-}
-#top-navbar a:active {
-  text-decoration: none;
-  text-transform:uppercase;
-  color: #cc8400;
-  font-size: 0.775em;
-  font-stretch: expanded;
-  font-weight: bold;
-  padding: 3px 8px 3px 8px;
-}
-#welcome {
-  color: #fff;
-  background-image: url(../img/bare-tree.jpg);
-  background-repeat: no-repeat;
-  height: 965px;
-  background-color: #ccc;
-  margin-top:0px;
-}
+
 #experience {
   margin: 85px 0px 0px 0px;
   padding-top:150px;
