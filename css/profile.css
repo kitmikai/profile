@@ -44,7 +44,6 @@ body {
 
 .nav-link-wrapper a {
   color: white;
-  font-weight: 600;
   text-decoration: none;
   transition: color 0.5s;
 }
@@ -52,6 +51,7 @@ body {
 .nav-link-wrapper:hover {
   border-bottom: 1px solid white;
 }
+
 .nav-link-wrapper a:hover {
   color: white;
 }
@@ -65,19 +65,22 @@ body {
 .section-wrapper {
   position: relative;
 }
+
+.section-items-wrapper {
+  position: absolute;
+}
+
 .large-section-title {
-  font-size: 3.875em;
+  font-size: 4.875em;
   padding: 0px;
   margin: 0px;
 }
+
 .section-subtitle {
   margin: 0px;
   padding:0px;
   font-size: 1.665em;
 }
-
-
-
 
 .image-float {
   float: left;
@@ -117,7 +120,6 @@ body {
   font-size: 1.35em;
   line-height: 1.495em;
   text-indent: 30px;
-
 }
 
 h1.large-text {
@@ -189,6 +191,7 @@ h1.large-text {
   margin: 3px;
   padding: 3px 8px 3px 8px;
 }
+
 #bottom-navbar a:hover {
   text-decoration: none;
   text-transform:uppercase;
@@ -198,25 +201,30 @@ h1.large-text {
   font-kerning: 2px;
   padding: 3px 8px 3px 8px;
 }
+
 .footer-title {
   font-size: 3.245em;
   padding-top: 0px;
   text-align: center;
 }
+
 .eve-ng {
   color: #282828;
   font-size: bold;
 }
+
 .row-projects {
   content:"";
   clear: both;
 }
+
 .column-info {
   float: left;
   width:50%;
   font-size: 1.35em;
   line-height: 1.495em;
 }
+
 #experience::after {
   content: "";
   display: table;
