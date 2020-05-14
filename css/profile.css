@@ -9,7 +9,7 @@ body {
   color: #fff;
   background-repeat: no-repeat;
   background-size:cover;
-  height: 965px;
+  height: 960px;
   width: 100%;
   background-color: #ccc;
   margin-top:0px;
@@ -19,7 +19,7 @@ body {
 .top-navbar {
   display: flex;
   justify-content: space-between;
-  padding:40px;
+  padding: 40px;
 }
 
 .right-side {
