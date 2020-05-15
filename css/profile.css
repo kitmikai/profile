@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto, Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   margin:0px;
 }
 
@@ -64,9 +64,9 @@ body {
 
 .about-wrapper {
   position: relative;
-  padding: 40px 250px 40px 250px;
-  margin-bottom: 10px;
-  height:720px;
+  padding: 150px 150px 40px 350px;
+  margin: 10px 0px 10px 0px;
+  height:790px;
 }
 
 .large-section-title {
@@ -83,8 +83,7 @@ body {
 
 .image-float {
   float: left;
-  padding-right: 50px;
-  padding-bottom: 55px;
+  padding-right: 120px;
   margin-bottom: 50px;
 }
 
@@ -117,8 +116,8 @@ body {
 
 .mystory {
   margin:50px 150px 0px 250px;
-  width: 970px;
-  font-size: 1.2em;
+  width: 850px;
+  font-size: 1.24em;
   line-height: 1.495em;
   text-indent: 30px;
   text-align: justify;
@@ -144,6 +143,13 @@ h1.large-text {
   padding-left: 250px;
   padding-top: 0px;
   text-align: center;
+}
+
+.para-title {
+  font-size: 2.5em;
+  text-align: center;
+  margin-left: 650px;
+  width: 450px;
 }
 
 .col-content {
