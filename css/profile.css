@@ -128,9 +128,20 @@ body {
 
 /* Project styling */
 
+.project-items-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding:120px 0px 120px 0px;
+}
+
+.project-item-wrapper {
+  position: relative;
+  
+}
+
 .project-img-background {
-  height: 500px;
-  width: 980px;
+  height: 350px;
+  width: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -141,6 +152,39 @@ body {
   font-size: 2.5em;
 }
 
+.img-text-wrapper {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.img-text-wrapper .subtitle {
+  transition: 1s;
+  font-weight: 600;
+  color: transparent;
+
+}
+.img-text-wrapper:hover .subtitle {
+  font-weight: 600;
+  color: white;
+}
+
+.img-darken {
+  transition: 1s;
+  filter: brightness(10%)
+}
+
+.logo-wrapper img {
+  width: 50%;
+  margin-bottom: 20px;
+}
 
 h1.large-text {
   font-size: 4.675em;
